@@ -1,0 +1,6 @@
+php artisan make:migration create_some_table
+php artisan migrate
+php artisan migrate:reset
+php artisan migrate:rollback --step 3
+php artisan migrate --path=/database/migrations/2021_12_25_12345_create_some_table
+php artisan migrate:refresh
